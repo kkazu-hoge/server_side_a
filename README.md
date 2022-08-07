@@ -1,21 +1,22 @@
 # README
 
-AWSのEC2にて動作確認しております。
-
-##【前提環境】
-サーバ：EC2
+## 前提環境
+AWSのEC2にて動作確認しております。<br>
+サーバ：EC2<br>
 OS：Amazon Lnux2
 
-↓以下AMIを利用しインスタンス立ち上げ
-Amazon Linux 2 AMI (HVM) - Kernel 5.10,
-SSD Volume Type
-ami-0ecb2a61303230c9d (64 ビット (x86)) 
-※念のためストレージサイズは15GBで設定ください。
+↓以下AMIを利用しインスタンス立ち上げ<br>
+Amazon Linux 2 AMI (HVM) - Kernel 5.10,<br>
+SSD Volume Type<br>
+ami-0ecb2a61303230c9d (64 ビット (x86))<br> 
+※ストレージサイズは10GB程度で設定ください。(使用は4GB程度)
 
 他：Gitインストール済の想定
-($ sudo yum install git)
+```
+$ sudo yum install git
+```
 
-##【確認手順】
+## 確認手順
 
 ①「git clone」でEC2へ「server_side_a」をダウンロード（/home/ec2-user直下）
 ```
@@ -46,16 +47,14 @@ $ rails s
 ```
 
 ⑥welcomeページの確認
-ブラウザでご確認ください。
-URL：http://127.0.0.1:3000/
+ブラウザでご確認ください。<br>
+【url】http://127.0.0.1:3000/
 
 
-⑦APIの動作確認(POST)　※自身はpostmanで確認
-【httpメソッド】
-　POST
+⑦APIの動作確認(POST)　※postmanで確認<br>
+【httpメソッド】POST
 
-【url】
-　http://localhost:3000/api/ver1/items
+【url】http://localhost:3000/api/ver1/items
 
 【body】(json)
 ```
@@ -80,12 +79,10 @@ URL：http://127.0.0.1:3000/
 }
 ```
 
-⑧itemsテーブルに格納したデータを確認
-【httpメソッド】
-　GET
+⑧itemsテーブルに格納したデータを確認<br>
+【httpメソッド】GET
 
-【URL】
-　http://localhost:3000/api/ver1/items
+【url】http://localhost:3000/api/ver1/items
 
 【response例】
 ```
@@ -104,5 +101,5 @@ URL：http://127.0.0.1:3000/
 }
 ```
 
-⑨確認後はrailsサーバーを停止ください
-「ctrl+c」
+⑨確認後はrailsサーバーを停止ください<br>
+　「ctrl+c」
