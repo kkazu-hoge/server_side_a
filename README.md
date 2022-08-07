@@ -46,8 +46,7 @@ $ rails db:migrate
 $ rails s
 ```
 
-⑥welcomeページの確認
-ブラウザでご確認ください。<br>
+⑥welcomeページの確認<br>
 【url】http://127.0.0.1:3000/
 
 
