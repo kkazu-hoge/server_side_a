@@ -48,8 +48,8 @@ $ rails s
 
 ⑥welcomeページの確認<br>
 【url】http://127.0.0.1:3000/
-<br>※1 エディター(VScode)のremote sshプラグインでpuma(web/apサーバ)を起動しているリモートポート(127.0.0.1(localhost):3000)を<br>
-ローカルアドレス(127.0.0.1(localhost):3000)へ転送しています。(ポートフォワーディング)
+<br>※1 エディター(VScode)のremote sshプラグインでpuma(web/apサーバ)を起動しているリモートポート(127.0.0.1(localhost):3000)を
+クライアントのローカルアドレス(127.0.0.1(localhost):3000)に転送しています。(sshポートフォワード)<br>
 
 
 ⑦APIの動作確認(POST)　※postmanで確認<br>
