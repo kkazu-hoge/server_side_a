@@ -33,6 +33,7 @@ $ sh rails_build.sh
 
 ③gemをインストール
 ```
+$ cd server_side_a
 $ bundle install
 ```
 
