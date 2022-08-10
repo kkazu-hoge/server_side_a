@@ -56,7 +56,7 @@ $ rails s
 【httpメソッド】POST
 
 【url】http://localhost:3000/api/ver1/items
-※1 
+※1 <br>
 【body】(json)
 ```
 {
@@ -84,7 +84,7 @@ $ rails s
 【httpメソッド】GET
 
 【url】http://localhost:3000/api/ver1/items
-※1 
+※1 <br>
 【response例】
 ```
 {
