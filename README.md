@@ -48,14 +48,15 @@ $ rails s
 
 ⑥welcomeページの確認<br>
 【url】http://127.0.0.1:3000/
-<br>※エディター(VScode)のremote sshプラグインでリモートポートをローカルアドレスに転送しています。(ポートフォワーディング)
+<br>※1 エディター(VScode)のremote sshプラグインでpuma(web/apサーバ)を起動しているリモートポート(127.0.0.1(localhost):3000)を<br>
+ローカルアドレス(127.0.0.1(localhost):3000)へ転送しています。(ポートフォワーディング)
 
 
 ⑦APIの動作確認(POST)　※postmanで確認<br>
 【httpメソッド】POST
 
 【url】http://localhost:3000/api/ver1/items
-
+※1 
 【body】(json)
 ```
 {
@@ -83,7 +84,7 @@ $ rails s
 【httpメソッド】GET
 
 【url】http://localhost:3000/api/ver1/items
-
+※1 
 【response例】
 ```
 {
