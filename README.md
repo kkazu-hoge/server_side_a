@@ -48,7 +48,7 @@ $ rails s
 
 ⑥welcomeページの確認<br>
 【url】http://127.0.0.1:3000/
-<br>※エディター(VScode)のremote sshプラグインでリモートポートをローカルアドレスに転送しています。
+<br>※エディター(VScode)のremote sshプラグインでリモートポートをローカルアドレスに転送しています。(ポートフォワーディング)
 
 
 ⑦APIの動作確認(POST)　※postmanで確認<br>
