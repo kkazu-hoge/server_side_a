@@ -57,6 +57,7 @@ $ rails s
 
 【url】http://localhost:3000/api/ver1/items
 ※1 <br>
+
 【body】(json)
 ```
 {
@@ -85,6 +86,7 @@ $ rails s
 
 【url】http://localhost:3000/api/ver1/items
 ※1 <br>
+
 【response例】
 ```
 {
