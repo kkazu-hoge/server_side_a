@@ -51,7 +51,7 @@ $ rails s
 【url】http://127.0.0.1:3000/
 <br>※1 エディター(VScode)のremote sshプラグインでpuma(web/apサーバ)を起動しているリモートポート(127.0.0.1(localhost):3000)を
 クライアントのローカルアドレス(127.0.0.1(localhost):3000)に転送しています。(sshポートフォワード)<br>
-ターミナルで実行する場合：ssh -i key-file -L 3000:localhost:3000 ec2-user@XXX.XXX.XXX.XXX(リモート先IP) -N<br>
+ローカルのターミナルで実行する場合：ssh -i key-file -L 3000:localhost:3000 ec2-user@XXX.XXX.XXX.XXX(リモート先IP) -N<br>
 
 
 ⑦APIの動作確認(POST)　※postmanで確認<br>
